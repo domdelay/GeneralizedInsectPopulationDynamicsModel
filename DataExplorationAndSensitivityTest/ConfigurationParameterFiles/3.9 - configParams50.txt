@@ -1,0 +1,107 @@
+//Toy Parameters same development, mortality and fecundity for each stage, initial female (F1) population, no sub-models
+//kill stage instar1, 50% kill
+//kill dates 170, 180, ..., 290, 300
+//tempB
+//./execSingleCellRunner 3.9\ -\ configParams50.txt tempB_sin.txt result.txt
+
+numDaysToSim: 365
+integrationStep: 0.05
+printInterval: 1.0
+
+numInstars: 1
+hasPupalStage: 1
+numFemStages: 2
+
+male proportion: 0.5
+latitude: 45.7
+
+addInsectsDate: 140
+initial eggs: 0
+initial instar1: 0
+initial pupae: 0.0
+initial males: 0.0
+initial females1: 50
+initial females2: 0
+
+eggs development a: 0.00015
+eggs development tmin: 8
+eggs development tmax: 26
+instar1 development a: 0.00015
+instar1 development tmin: 8
+instar1 development tmax: 26
+pupae development a: 0.00015
+pupae development tmin: 8
+pupae development tmax: 26
+males development a: 0.00015
+males development tmin: 8
+males development tmax: 26
+females1 development a: 0.00015
+females1 development tmin: 8
+females1 development tmax: 26
+females2 development a: 0.00015
+females2 development tmin: 8
+females2 development tmax: 26
+
+eggs mortality min: 0
+eggs mortality max: 0.2
+eggs mortality min temp: 2
+eggs mortality max temp: 37
+instar1 mortality min: 0
+instar1 mortality max: 0.2
+instar1 mortality min temp: 2
+instar1 mortality max temp: 37
+pupae mortality min: 0
+pupae mortality max: 0.2
+pupae mortality min temp: 2
+pupae mortality max temp: 37
+females1 mortality min: 0
+females1 mortality max: 0.2
+females1 mortality min temp: 2
+females1 mortality max temp: 37
+females2 mortality min: 0
+females2 mortality max: 0.2
+females2 mortality min temp: 2
+females2 mortality max temp: 37
+males mortality min: 0
+males mortality max: 0.2
+males mortality min temp: 2
+males mortality max temp: 37
+
+females1 egg viability: 0
+females2 egg viability: 1
+fecundity max: 10
+fecundity tmin: 18
+fecundity tmax: 30
+
+ignoreOverwintering: 1
+ignoreMortTemp: 0
+ignoreKill: 0
+ignorePredation: 1
+ignoreDiapause: 1
+
+diapause critical temp: 0
+diapause daylight hours: 0
+daylight hours half in diapause: 0
+diapause rate per daylight hours: 0
+
+overwinteringStage: 0
+initialOverwintering: 0
+overwintering success: 0
+overwintering critical induction temp: 0
+overwintering induction daylight hours: 0
+overwintering critical termination temp: 0
+overwintering termination daylight hours: 0
+overwintering mortality temp: -20
+
+numKillDates: 1
+//different kill dates 170, 180, ..., 290, 300
+killDate1: 290
+stageKill1: 1
+percentKill1: 50
+
+eggs mortality due to predation: 0
+instar1 mortality due to predation: 0
+pupae mortality due to predation: 0
+males mortality due to predation: 0
+females1 mortality due to predation: 0
+females2 mortality due to predation: 0
