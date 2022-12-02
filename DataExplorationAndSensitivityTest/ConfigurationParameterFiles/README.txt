@@ -1,0 +1,1 @@
+The number that precedes “ - configParams” in the file name denotes the figure, in Delay 2022, which used that configuration parameter file to run the general model.
