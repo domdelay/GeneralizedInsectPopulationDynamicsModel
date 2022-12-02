@@ -1,0 +1,130 @@
+Insect Species -- Mountain Pine Beetle
+//tempSawtoothNationalRecreationAreaPhloem.txt
+
+numDaysToSim: 580
+integrationStep: 0.05
+printInterval: 1.0
+
+numInstars: 4
+hasPupalStage: 1
+numFemStages: 2
+
+male proportion: 0.5
+latitude: 43.7873	//sawtooth national recreation area
+
+addInsectsDate: 222
+initial eggs: 100
+initial instar1: 0
+initial instar2: 0
+initial instar3: 0
+initial instar4: 0
+initial pupae: 0
+initial males: 0
+initial females1: 0
+initial females2: 0
+
+eggs development a: 0.00016854
+eggs development tmin: 2.35155
+eggs development tmax: 30.5333
+instar1 development a: 0.00045232
+instar1 development tmin: 4.76344
+instar1 development tmax: 27.9674
+instar2 development a: 0.00065038
+instar2 development tmin: 8.95598
+instar2 development tmax: 25.4927
+instar3 development a: 0.00021499
+instar3 development tmin: 4.93946
+instar3 development tmax: 27.5888
+instar4 development a: 0.00013012
+instar4 development tmin: 7.80564
+instar4 development tmax: 39.754
+pupae development a: 0.00042097
+pupae development tmin: 11.1266
+pupae development tmax: 27.7548
+males development a: 0
+males development tmin: 0
+males development tmax: 0
+females1 development a: 6.48E-05
+females1 development tmin: 4.2
+females1 development tmax: 33.1501
+females2 development a: 0.000144542
+females2 development tmin: 4.6
+females2 development tmax: 25.1
+
+eggs mortality min: 0.01008
+eggs mortality max: 1
+eggs mortality min temp: -81.1089
+eggs mortality max temp: 93.4166
+instar1 mortality min: 0.03769
+instar1 mortality max: 1
+instar1 mortality min temp: -77.5755
+instar1 mortality max temp: 94.4985
+instar2 mortality min: 0.01886
+instar2 mortality max: 1
+instar2 mortality min temp: -109.8191
+instar2 mortality max temp: 126.962
+instar3 mortality min: 0.01008
+instar3 mortality max: 1
+instar3 mortality min temp: -81.1089
+instar3 mortality max temp: 93.4166
+instar4 mortality min: 0.00211
+instar4 mortality max: 1
+instar4 mortality min temp: -172.9641
+instar4 mortality max temp: 185.8674
+pupae mortality min: -0.1208
+pupae mortality max: 1
+pupae mortality min temp: -30.8908
+pupae mortality max temp: 61.0795
+males mortality min: -0.5556
+males mortality max: 1
+males mortality min temp: -12.4689
+males mortality max temp: 49.5059
+females1 mortality min: -0.5556
+females1 mortality max: 1
+females1 mortality min temp: -12.4689
+females1 mortality max temp: 49.5059
+females2 mortality min: -0.5556
+females2 mortality max: 1
+females2 mortality min temp: -12.4689
+females2 mortality max temp: 49.5059
+
+females1 egg viability: 0.0
+females2 egg viability: 0.0
+fecundity max: 12.2
+fecundity tmin: 7.2
+fecundity tmax: 30.6
+
+ignoreOverwintering: 0
+ignoreMortTemp: 0
+ignoreKill: 1
+ignorePredation: 1
+ignoreDiapause: 1
+
+overwinteringStage: 4
+initialOverwintering: 0
+overwintering success: 1
+overwintering critical induction temp: 15
+overwintering induction daylight hours: 24
+overwintering critical termination temp: 5
+overwintering termination daylight hours: 15.25
+overwintering mortality temp: -20
+
+diapause critical temp: 0
+diapause daylight hours: 0
+daylight hours half in diapause: 0
+diapause rate per daylight hours: 0
+
+numKillDates: 0
+killDate1: 0
+stageKill: 0
+percentKill: 0
+
+eggs mortality due to predation: 0.0
+instar1 mortality due to predation: 0.0
+instar2 mortality due to predation: 0.0
+instar3 mortality due to predation: 0.0
+instar4 mortality due to predation: 0.0
+pupae mortality due to predation: 0.0
+males mortality due to predation: 0.0
+females1 mortality due to predation: 0.0
+females2 mortality due to predation: 0.0

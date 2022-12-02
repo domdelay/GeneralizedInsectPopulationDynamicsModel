@@ -1,0 +1,130 @@
+Insect Species -- Cotton Aphid
+//tempTexasThreeYearMean.txt
+//egg stage is skipped except when overwintering 
+
+numDaysToSim: 365
+integrationStep: 0.05
+printInterval: 1.0
+
+numInstars: 4
+hasPupalStage: 0
+numFemStages: 3
+
+male proportion: 0.48828125
+latitude: 45.7	//latitude for Hillsborough, FL
+
+
+addInsectsDate: 140
+initial eggs: 100
+initial instar1: 0
+initial instar2: 0
+initial instar3: 0
+initial instar4: 0
+initial males: 0
+initial females1: 0
+initial females2: 0
+initial females3: 0
+
+//eggs only occurs at the end of the year to overwinter. Dev rate set very high to basically skip the egg life stage
+eggs development a: 1
+eggs development tmin: -5
+eggs development tmax: 40
+instar1 development a: 0.000732127
+instar1 development tmin: 4.545
+instar1 development tmax: 36.0484
+instar2 development a: 0.00105038
+instar2 development tmin: 7.24314
+instar2 development tmax: 35.2287
+instar3 development a: 0.00124562
+instar3 development tmin: 5.90572
+instar3 development tmax: 31.8775
+instar4 development a: 0.00110689
+instar4 development tmin: 6.18416
+instar4 development tmax: 32.0688
+males development a: 0.0000444506
+males development tmin: 0.0428715
+males development tmax: 33.0045
+females1 development a: 0.000907489
+females1 development tmin: 1.69268
+females1 development tmax: 30.2094
+females2 development a: 0.0000588127
+females2 development tmin: -3.41148
+females2 development tmax: 34.9979
+females3 development a: 0.000645129
+females3 development tmin: -10
+females3 development tmax: 26
+
+eggs mortality min: 0
+eggs mortality max: 0
+eggs mortality min temp: -1000
+eggs mortality max temp: 1000
+instar1 mortality min: 0.02983
+instar1 mortality max: 1
+instar1 mortality min temp: -5.0985
+instar1 mortality max temp: 45.7652
+instar2 mortality min: -0.001
+instar2 mortality max: 1
+instar2 mortality min temp: -12.6386
+instar2 mortality max temp: 50.6386
+instar3 mortality min: 0.00775
+instar3 mortality max: 1
+instar3 mortality min temp: -10
+instar3 mortality max temp: 53
+instar4 mortality min: 0.01484
+instar4 mortality max: 1
+instar4 mortality min temp: -29.0025
+instar4 mortality max temp: 70.2525
+males mortality min: 0.04274
+males mortality max: 1
+males mortality min temp: -50.8636
+males mortality max temp: 75.4469
+females1 mortality min: 0.04274
+females1 mortality max: 1
+females1 mortality min temp: -50.8636
+females1 mortality max temp: 75.4469
+females2 mortality min: 0.04274
+females2 mortality max: 1
+females2 mortality min temp: -50.8636
+females2 mortality max temp: 75.4469
+females3 mortality min: 0.04274
+females3 mortality max: 1
+females3 mortality min temp: -50.8636
+females3 mortality max temp: 75.4469
+
+females1 egg viability: 0.0
+females2 egg viability: 1
+females3 egg viability: 0
+fecundity max: 5.29778
+fecundity tmin: 4.36273
+fecundity tmax: 44.65027
+
+ignoreOverwintering: 1
+ignoreMortTemp: 0
+ignoreKill: 1
+ignorePredation: 1
+ignoreDiapause: 1
+
+//overwinter as eggs but egg dev is very fast so, in model, OW as female
+overwinteringStage: 5
+initialOverwintering: 100
+overwintering success: 0.35
+overwintering critical induction temp: 6
+overwintering induction daylight hours: 24
+overwintering critical termination temp: 6
+overwintering termination daylight hours: 0
+diapause mortality temp: -20
+
+numKillDates: 0
+killDate1: 0
+stageKill: 0
+percentKill: 0
+
+eggs mortality due to predation: 0.0
+instar1 mortality due to predation: 0.0
+instar2 mortality due to predation: 0.0
+instar3 mortality due to predation: 0.0
+instar4 mortality due to predation: 0.0
+males mortality due to predation: 0.0
+females1 mortality due to predation: 0.0
+females2 mortality due to predation: 0.0
+females3 mortality due to predation: 0.0

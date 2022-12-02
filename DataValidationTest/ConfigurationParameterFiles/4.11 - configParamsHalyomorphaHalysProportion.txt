@@ -1,0 +1,159 @@
+//Insect Species -- Brown_Marmorated_Stink_Bug
+//tempZurichWollishofenSwitzerland.txt
+
+numDaysToSim: 365
+integrationStep: 0.05
+printInterval: 1 
+
+numInstars: 5
+hasPupalStage: 0
+numFemStages: 3
+
+male proportion: 0.5
+latitude: 45.7
+
+//19 Jun 2013
+addInsectsDate: 170
+initial eggs: 0
+initial instar1: 0
+initial instar2: 0
+initial instar3: 0
+initial instar4: 0
+initial instar5: 0
+initial males: 0
+initial females1: 16
+initial females2: 0
+initial females3: 0
+
+eggs development a: 0.000265309
+eggs development tmin: 11.6067
+eggs development tmax: 38.2689
+instar1 development a: 0.000282989
+instar1 development tmin: 11.9566
+instar1 development tmax: 37.8908
+instar2 development a: 0.000145889
+instar2 development tmin: 12.0836
+instar2 development tmax: 37.8046
+instar3 development a: 0.000159262
+instar3 development tmin: 9.69083
+instar3 development tmax: 36.632
+instar4 development a: 0.000134168
+instar4 development tmin: 6.80589
+instar4 development tmax: 37.4788
+instar5 development a: 0.0000784136
+instar5 development tmin: 2.25578
+instar5 development tmax: 37.5558
+males development a: 0.000147932
+males development tmin: 15.9707
+males development tmax: 34.2989
+females1 development a: 0.000147932
+females1 development tmin: 15.9707
+females1 development tmax: 34.2989
+females2 development a: 0.0000493833
+females2 development tmin: 16
+females2 development tmax: 36.4237
+females3 development a: 0.0000340557
+females3 development tmin: 13.64116
+females3 development tmax: 33.5109
+
+eggs mortality min: -0.003604
+eggs mortality max: 1
+eggs mortality min temp: -40.95
+eggs mortality max temp: 90.1043
+instar1 mortality min: 0.00264
+instar1 mortality max: 1
+instar1 mortality min temp: -21.2331
+instar1 mortality max temp: 68.5632
+instar2 mortality min: 0.003424
+instar2 mortality max: 1
+instar2 mortality min temp: -13.1781
+instar2 mortality max temp: 59.6738
+instar3 mortality min: 0.006951
+instar3 mortality max: 1
+instar3 mortality min temp: -20.0013
+instar3 mortality max temp: 64.3016
+instar4 mortality min: 0.003796
+instar4 mortality max: 1
+instar4 mortality min temp: -38.8642
+instar4 mortality max temp: 79.7827
+instar5 mortality min: 0.0008579
+instar5 mortality max: 1
+instar5 mortality min temp: -15.3331
+instar5 mortality max temp: 60.6974
+males mortality min: 0
+males mortality max: 0
+males mortality min temp: -100
+males mortality max temp: 100
+females1 mortality min: 0
+females1 mortality max: 0
+females1 mortality min temp: -100
+females1 mortality max temp: 100
+females2 mortality min: -0.01635
+females2 mortality max: 1
+females2 mortality min temp: -18.2256
+females2 mortality max temp: 69.3481
+females3 mortality min: -0.01635
+females3 mortality max: 1
+females3 mortality min temp: -18.2256
+females3 mortality max temp: 69.3481
+
+females1 egg viability: 0.5
+females2 egg viability: 0.4
+females3 egg viability: 0.0
+fecundity max: 7.25
+fecundity tmin: 12.1
+fecundity tmax: 42.7
+
+ignoreOverwintering: 0
+ignoreMortTemp: 0
+ignoreKill: 1
+ignorePredation: 1
+ignoreDiapause: 1
+
+diapauseStage: 0
+currentDiapause: 0
+overwintering success: 0
+diapause critical temp: 0
+diapause daylight hours: 0
+
+//adult
+overwinteringStage: 6
+initialOverwintering: 0
+overwintering success: 1
+overwintering critical induction temp: 20
+overwintering induction daylight hours: 15
+overwintering critical termination temp: 18
+overwintering termination daylight hours: 14
+overwintering mortality temp: -20
+
+numKillDates: 0
+killDate1: 0
+stageKill: 0
+percentKill: 0
+
+eggs mortality due to predation: 0.0
+instar1 mortality due to predation: 0.0
+instar2 mortality due to predation: 0.0
+instar3 mortality due to predation: 0.0
+instar4 mortality due to predation: 0.0
+instar5 mortality due to predation: 0.0
+males mortality due to predation: 0.0
+females1 mortality due to predation: 0.0
+females2 mortality due to predation: 0.0
+females3 mortality due to predation: 0.0
+
+instars min population limit: 0
+instars max population limit: 0
+instars food min temp: 0
+instars food max temp: 0
+instars food growth rate: 0
+males min population limit: 0
+males max population limit: 0
+males food min temp: 0
+males food max temp: 0
+males food growth rate: 0
+females min population limit: 0
+females max population limit: 0
+females food min temp: 0
+females food max temp: 0
+females food growth rate: 0
