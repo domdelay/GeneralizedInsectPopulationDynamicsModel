@@ -1,6 +1,6 @@
 /*
 This file is part of the dsPopSim software and is subject to the license distributed
-with the software (see LICENSE.txt and CITATION.txt).
+with the software
 Copyright (c) 2016, Aaron B. Langille, Ellen M. Arteca, Jonathan A. Newman
 All rights reserved.
 */
